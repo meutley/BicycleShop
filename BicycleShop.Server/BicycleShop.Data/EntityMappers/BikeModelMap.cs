@@ -8,6 +8,7 @@ namespace BicycleShop.Data.EntityMappers
         public BikeModelMap(EntityTypeBuilder<BikeModel> entityBuilder)
         {
             entityBuilder.HasKey(bm => bm.Id);
+            entityBuilder.Property(bm => bm.ImageUrl);
 
             entityBuilder.Property(bm => bm.ModelName)
                          .IsRequired();

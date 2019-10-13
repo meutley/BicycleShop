@@ -12,6 +12,7 @@ namespace BicycleShop.Data.Models.Bike
         public int BikeTypeId { get; set; }
         public virtual BikeType BikeType { get; set; }
         public string Description { get; set; }
+        public string ImageUrl { get; set; }
         public bool IsChildBike { get; set; }
         public bool IsActive { get; set; }
         public virtual ICollection<Bike> Bikes { get; set; }

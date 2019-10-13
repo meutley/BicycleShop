@@ -8,6 +8,7 @@ namespace BicycleShop.Data.Models.Bike
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string ImageUrl { get; set; }
         public virtual ICollection<BikeModel> BikeModels { get; set; }
     }
 }

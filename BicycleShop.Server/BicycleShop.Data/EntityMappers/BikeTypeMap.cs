@@ -8,6 +8,7 @@ namespace BicycleShop.Data.EntityMappers
         public BikeTypeMap(EntityTypeBuilder<BikeType> entityBuilder)
         {
             entityBuilder.HasKey(bt => bt.Id);
+            entityBuilder.Property(bt => bt.TypeDescription);
 
             entityBuilder.Property(bt => bt.TypeName)
                          .IsRequired();
