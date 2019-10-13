@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BicycleShop.Service.DTOs.Bike
 {
-    public class BikeHistoryDto
+    public class BikeHistoryItemDto
     {
         public Guid Id { get; set; }
         public Guid BikeId { get; set; }

@@ -8,6 +8,7 @@
         Repairing,
         Prepping,
         Ready,
-        Rented
+        Rented,
+        Sold
     }
 }
